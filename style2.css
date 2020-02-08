@@ -1,0 +1,61 @@
+.orange {
+  border: solid 1px tomato;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  min-width: 180px;
+  color: #ff6900;
+  font-size: 20px;
+  display: inline-block;
+
+  border-radius: 50px;
+  padding: 10px 30px;
+  transition-duration: 600ms;
+}
+.orange:focus,
+.orange:hover {
+  background-color: #ff6900;
+
+  color: #fff;
+  box-shadow: 0 6px 30px 8px rgba(228, 150, 5, 0.39);
+}
+
+.group-box {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  min-width: 140px;
+  max-width: 280px;
+  padding: 10px;
+  margin: 10px;
+}
+.box::placeholder {
+  color: rgb(202, 199, 199);
+}
+
+.sec {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-img {
+  position: absolute;
+  float: right;
+  width: 100%;
+  margin: right;
+  z-index: -1;
+  rotate: 360;
+}
+
+@media only screen and (max-width: 767px) {
+  .group-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box {
+    max-width: 100%;
+  }
+}

@@ -62,7 +62,11 @@ Last Update: Dec 31, 2018
   margin: 0;
   padding: 0; }
 
-body {
+  html {
+    scroll-behavior: smooth;
+  }
+
+body {  
   font-family: "Aileron";
   font-weight: 400;
   font-size: 14px; }

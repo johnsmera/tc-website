@@ -16,11 +16,13 @@
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 
 
 </head>
 
 <body>
+    <h1 style="display: none;">Telechamps</h1>
     <!-- Preloader -->
     <div id="preloader">
         <div class="wrapper">
@@ -53,6 +55,7 @@
 
                         <!-- Nav Start -->
                         <div class="classynav">
+                            <h2 style="display: none;">Quem somos</h2>
                             <ul id="nav">
                                 <li class="current-item"><a href="./index.html">Página inicial</a></li>
                                 <li><a href="#">Quem somos</a>
@@ -68,7 +71,7 @@
 
                             <!-- Get A Quote -->
                             <div class="get-a-quote ml-4 mr-3">
-                                <a href="#" class="btn uza-btn">Consulte sua Apólice</a>
+                                <a href="#consulte" class="btn uza-btn">Consulte sua Apólice</a>
                             </div>
 
                             <!-- Login / Register -->
@@ -210,10 +213,12 @@
                     <div class="about-us-thumbnail mb-80">
                         <img src="./img/bg-img/2.jpg" alt="">
                         <!-- Video Area -->
-                        <div class="uza-video-area hi-icon-effect-8">
+
+                        <!-- <div class="uza-video-area hi-icon-effect-8">
                             <a href="https://www.youtube.com/watch?v=sSakBz_eYzQ" class="hi-icon video-play-btn"><i
                                     class="fa fa-play" aria-hidden="true"></i></a>
                         </div>
+                        -->
                     </div>
                 </div>
 
@@ -228,6 +233,8 @@
                         <a href="#" class="btn uza-btn btn-2 mt-4">Entenda como funciona</a>
                     </div>
                 </div>
+
+              
             </div>
         </div>
 
@@ -238,6 +245,35 @@
     </section>
     <!-- ***** About Us Area End ***** -->
 
+    <!--***** Check apolice ******-->
+    <section id="consulte" class="uza-services-area section-padding-80-0 ">
+        <!-- About Background Pattern -->
+        <!--<div class="bg-img">
+            <img src="./img/core-img/curve-3.png" alt="" style="width: 100px; left: 50px;">
+        </div>
+        -->
+        <div class="container ">
+            <div class="row sec">
+                <!-- Section Heading -->
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Consulte sua Telechamps</h2>
+                        <p>Por favor, informe seu número de operação e CPF </p>
+                        <div class="group-box">
+                            <input class="form-control box" type="text" placeholder="Número da Operação">
+                            <input class="form-control box" type="text" placeholder="CPF">
+                        </div>
+                        <input class="btn orange  btn-2 mt-4" type="button" value="Consultar">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row"></div>
+        </div>
+    </section>
+     <!--***** Check apolice ******-->
+
+    
     <!-- ***** Services Area Start ***** -->
     <section class="uza-services-area section-padding-80-0">
         <div class="container">
@@ -451,7 +487,7 @@
 
                         <!-- Copywrite Text -->
                         <div class="copywrite-text mb-30">
-                            <p>&copy; Copyright 2018 <a href="#">Telechamps</a>.</p>
+                            <p>&copy; Copyright <script>document.write(new Date().getFullYear());</script> <a href="#">Telechamps</a>.</p>
                         </div>
 
                        <!-- Social Info -->
